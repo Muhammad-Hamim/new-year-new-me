@@ -201,5 +201,74 @@
     color: #FFFFFF;
     margin-bottom: 24px;
 }
+
 /* mindset-section-style-end */
 /* footer-section-style-start */
+.footer-section {
+    background: #151414;
+    padding: 130px 0;
+}
+
+.footer-container {
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-content-one {
+    width: 485px;
+    margin-right: auto;
+}
+
+.footer-one-header {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+}
+
+.footer-one-description {
+    margin: 16px 0px 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.footer-content-one p>a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-icon img {
+    margin-top: 32px;
+    margin-right: 17px;
+}
+
+.footer-two-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.footer-content-two input {
+    width: 325px;
+    background: transparent;
+    color: #FFFFFF;
+    padding: 21px;
+    font-weight: 400;
+    font-size: 18px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    margin: 31px 0px 16px;
+    display: block;
+    outline: none;
+}
