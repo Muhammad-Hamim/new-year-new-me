@@ -208,6 +208,117 @@
 }
 
 /* mindset-section-style-end */
+
+/* contact-section-style-start */
+.contact-container {
+    width: 67%;
+    margin: 0 auto;
+}
+
+/* contact-form-style */
+.contact-form {
+    margin-top: 50px;
+    width: 588px;
+    margin: 50px auto;
+}
+
+.contact-text {
+    text-align: center;
+    width: 45%;
+    margin: 0px auto;
+}
+
+.contact-text>h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.contact-divider {
+    width: 52px;
+    height: 4px;
+    background-color: #3C79F5;
+    max-width: 52px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.contact-text>p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #444343;
+}
+
+.contact-input input[type="text"],
+.contact-input input[type="email"],
+.contact-input input[type="number"],
+.contact-input textarea {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    color: #0e0404;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.contact-input input[type="text"]:focus,
+.contact-input input[type="email"]:focus,
+.contact-input input[type="number"]:focus,
+.contact-input textarea:focus {
+    box-shadow: 0px 0px 10px 0px #5f5d5d3f;
+    border: 1px solid #0000003a;
+}
+.contact-input textarea{
+    resize: vertical;
+    max-height: 300px;
+}
+.contact-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 22px;
+    border-radius: 5px;
+    border: 2px solid #3C79F5;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.4s;
+    background-color: #3C79F5;
+    color: white;
+}
+
+.contact-btn:hover {
+    background-color: transparent;
+    color: #151414;
+}
+
+.contact-mobile {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.contact-mobile span {
+    font-size: 50px;
+    transform: rotate(10deg);
+    color: black;
+    font-weight: 100;
+}
+.contact-mobile > p>a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #151414;
+    text-decoration: none;
+}
+
+/* contact-section-end */
+
 /* footer-section-style-start */
 .footer-section {
     background: #151414;
