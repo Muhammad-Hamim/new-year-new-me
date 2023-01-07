@@ -114,6 +114,11 @@
     color: #151414;
 }
 
+.failure-img img {
+    width: 569px;
+    height: 750px
+}
+
 .failure-description {
     font-weight: 400;
     font-size: 16px;
@@ -272,3 +277,5 @@
     display: block;
     outline: none;
 }
+
+/* footer-style-end */
