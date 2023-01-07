@@ -191,6 +191,7 @@
     min-height: 300px;
     display: flex;
     align-items: center;
+    border-radius: 5px;
 }
 
 .mindset-content {
